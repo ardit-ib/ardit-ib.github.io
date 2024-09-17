@@ -32,6 +32,9 @@
  *  22. Features Testimonials
  *  23. Features Slider
  *  24. Features Socials
+  --gradient-one--dark: #a287d5;
+  --gradient-two--dark: #E4B8BF;
+  --gradient-three--dark: #8b6bc5;
  * ------------------------------------------------
  * Table of Contents End
  * ------------------------------------------------ */
@@ -113,9 +116,9 @@
   --t-opp-bright--dark: #121319;
   --t-opp-medium--dark: #626577;
   --t-opp-muted--dark: #717586;
-  --gradient-one--dark: #a287d5;
-  --gradient-two--dark: #E4B8BF;
-  --gradient-three--dark: #8b6bc5;
+  --gradient-one--dark: #D22B2B;
+  --gradient-two--dark: #FFEA00;
+  --gradient-three--dark: #0096FF;
   /* permanent colors */
   --per-base: #111111;
   --per-base-tint: #212121;
@@ -556,7 +559,9 @@ img {
     width: 425px;
     height: 425px;
   }
-}
+} 
+
+
 
 /* ------------------------------------------------*/
 /* Animations - Backgrounds End */
@@ -3770,7 +3775,9 @@ form textarea:required:valid {
   max-width: 100%;
   max-height: 100%;
 }
+
  */
+
 
 .cards {
   position: relative;
