@@ -345,6 +345,9 @@ body {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+  /* Add the following styles to enable video playback on mobile devices */
+  playsinline: 1; /* Allow the video to play inline */
+  webkit-playsinline: 1; /* Add vendor prefix for Safari */
 }
 
 /* Add these media queries to make the video responsive */
@@ -372,6 +375,7 @@ body {
     height: 100vh; /* Set the video height to the viewport height */
   }
 }
+
 section {
   position: relative;
   width: 100%;
